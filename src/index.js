@@ -6,13 +6,15 @@ const Link = require("./resolvers/Link");
 const User = require("./resolvers/User");
 const Mutation = require("./resolvers/Mutation");
 const Subscription = require("./resolvers/Subscription");
+const Vote = require("./resolvers/Vote");
 
 const resolvers = {
   Query,
   Link,
   User,
   Mutation,
-  Subscription
+  Subscription,
+  Vote
 };
 
 const server = new GraphQLServer({
